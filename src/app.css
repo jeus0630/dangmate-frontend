@@ -5,6 +5,14 @@
 
 @layer base {
     html {
-        font-size: 10px;
+        font-size: 62.5%;
+    }
+
+    body {
+        @apply container;
+    }
+
+    img {
+        @apply w-full;
     }
 }

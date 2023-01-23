@@ -1,6 +1,10 @@
 <script>
 	import '../app.css';
+	import AppBar from '../components/AppBar.svelte';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<header class="p-[2rem]">
+	<AppBar />
+</header>
+<main class="px-[2rem]">main</main>
+<footer class="px-[2rem]">footer</footer>
