@@ -1,6 +1,6 @@
 <script lang="ts">
-	let appBarTitle: string = 'Title';
-	let profileSrc: string = '/profile.jpg';
+	export let appBarTitle: string;
+	export let profileSrc: string;
 </script>
 
 <div class="flex justify-between items-center font-bold text-t1">

@@ -9,7 +9,7 @@
     }
 
     body {
-        @apply container;
+        @apply container font-pretendard;
     }
 
     img {
